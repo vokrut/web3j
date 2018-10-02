@@ -27,7 +27,7 @@ public class MnemonicUtils {
 
     private static final int SEED_ITERATIONS = 2048;
     private static final int SEED_KEY_SIZE = 512;
-    private static final List<String> WORD_LIST = null;
+    private static List<String> WORD_LIST = null;
 
     /**
      * The mnemonic must encode entropy in a multiple of 32 bits. With more entropy security is
